@@ -28,8 +28,11 @@ def main():
             playsound('sounds/again.mp3')
             again=input('Press enter to ask something else')
     print('Turning off...')
-    os.remove("pic.jpg")
-
+    try:
+        os.remove("pic.jpg")
+        os.remove("x.mp3")
+    except:
+        pass
     return playsound('sounds/off.mp3.mov')
 
 if __name__ == "__main__":

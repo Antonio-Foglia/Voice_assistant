@@ -14,4 +14,4 @@ def recognise(fname):
     except sr.UnknownValueError:
          return ("Google Speech Recognition could not understand audio")
     except sr.RequestError as e:
-        return ("Could not request results from Google Speech Recognition service;
+        return ("Could not request results from Google Speech Recognition service")
