@@ -1,3 +1,8 @@
+
+**CURRENT UNFIXED PROBLEM WITHT THE GOOGLE gTTS WHICH MIGHT CAUSE PROGRAM TO NOT WORK**
+
+
+
 *Chatbotter.ipynb is used to initiate the Chatbot in the current directory. The chatbot is then trained, and will use machine learning to speak to the user.
 
 *Default sounds are stored in the sounds folder and used when needed

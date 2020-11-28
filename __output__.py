@@ -8,5 +8,5 @@ def say(text,lang):
         print(f'Goffredo: "{text}"')
     tts = gTTS(text=text, lang=lang)
     tts.save("x.mp3")
-    time.sleep(1)#vary this based on internet speed
+    #time.sleep(1)#vary this based on internet speed, mostly not needed.
     return playsound('x.mp3'),os.remove('x.mp3')
